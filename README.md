@@ -12,4 +12,3 @@ dataframe. The analysis script analyzes and plots the data, and the comparison
 script compares the results of the two methods. 
 
 Authors: Adrian Wong, Uriel Lascombes
-Oct 2025
