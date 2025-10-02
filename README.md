@@ -1,14 +1,42 @@
 # cortical-magnification-methods
-This repository contains code for loading, analyzing, and plotting cortical 
-magnification data from the HCP 7T retinotopy dataset (Benson et al., 2018). 
-Two methods are available for computing cortical magnification, one based on
-the geodesic distance between vertices on the brain surface, and the other 
-based on the surface area around a vertex. The load script uses the neuropythy 
-library for loading and processing HCP data, applies the Wang et al. (2015) 
-atlas to each subject, and generates individual tsv files for each subject 
-containing vertex-wise information like prf eccentricity, r2, and cortical 
-magnification. The group script concatenates those tsv files into one 
-dataframe. The analysis script analyzes and plots the data, and the comparison
-script compares the results of the two methods. 
+This pRF_project folder contains code, results, and plots for a 
+cortical magnification project that I presented a poster for at 
+the 2025 Optica Fall Vision Meeting. The code is based off of 
+work done by Uriel Lascombes, and relies much on the neuropythy 
+library developed by Noah Benson to load and process the data 
+from the HCP 7T retinotopy dataset.
 
-Authors: Adrian Wong, Uriel Lascombes
+The "code" folder contains code that loads, analyzes, and plots 
+cortical magnification data taken from the HCP 7T retinotopy 
+dataset. This folder is also published on GitHub: 
+https://github.com/adrianwong111/cortical-magnification-methods.git
+
+- load_dist.ipynb generates a tsv file for every subject, 
+each tsv contains vertex-wise geodesic area, pRF area, r2, etc. 
+Cortical magnification is calculated using the distance-based
+method. load_area.ipynb is very similar to load_dist except that
+cortical magnification is calculated using the area-based method.
+The Wang et al. (2015) atlas is applied to every subject to
+identify visual areas.
+- group_dist.ipynb and group_area.ipynb filters and concatenates 
+the individual tsv files.
+- analysis_dist.ipynb and analysis_area.ipynb fits the Harvey model
+to the CM vs eccentricity data.
+- plot_dist.ipynb and plot_area.ipynb plots the results and metrics
+generated from analysis.
+- comparison.ipynb compares the results obtained from the two CM 
+calculation methods.
+
+The "plots" folder contains plots generated from the plots scripts.
+
+The "results" folder contains results and metrics generated from 
+the analysis scripts.
+
+The "tsv" folder contains individual tsv files for each HCP 
+retinotopy subject, one set (indiv_dist_tsv) for the distance-based 
+CM method and the other set (indiv_area_tsv) for the area-based CM 
+method. The group_tsv folder contains the filtered and concatenated 
+tsvs from those two sets.
+
+Adrian Wong
+UMN, Oct 2025
