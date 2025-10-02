@@ -8,9 +8,7 @@ from the HCP 7T retinotopy dataset.
 
 The "code" folder contains code that loads, analyzes, and plots 
 cortical magnification data taken from the HCP 7T retinotopy 
-dataset. This folder is also published on GitHub: 
-https://github.com/adrianwong111/cortical-magnification-methods.git
-
+dataset. 
 - load_dist.ipynb generates a tsv file for every subject, 
 each tsv contains vertex-wise geodesic area, pRF area, r2, etc. 
 Cortical magnification is calculated using the distance-based
