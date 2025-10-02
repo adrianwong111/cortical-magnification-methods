@@ -1,4 +1,4 @@
-# cortical-magnification-methods
+# Cortical magnification across the visual hierarchy
 This pRF_project folder contains code, results, and plots for a 
 cortical magnification project that I presented a poster for at 
 the 2025 Optica Fall Vision Meeting. The code is based off of 
