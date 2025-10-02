@@ -1,10 +1,10 @@
 # Cortical magnification across the visual hierarchy
-This pRF_project folder contains code, results, and plots for a 
-cortical magnification project that I presented a poster for at 
-the 2025 Optica Fall Vision Meeting. The code is based off of 
-work done by Uriel Lascombes, and relies much on the neuropythy 
-library developed by Noah Benson to load and process the data 
-from the HCP 7T retinotopy dataset.
+This repository contains code, results, and plots for a cortical
+magnification project that I presented a poster for at the 2025 
+Optica Fall Vision Meeting. The code is based off of work done by 
+Uriel Lascombes, and relies much on the neuropythy library 
+developed by Noah Benson to load and process the data from the 
+HCP 7T retinotopy dataset.
 
 The "code" folder contains code that loads, analyzes, and plots 
 cortical magnification data taken from the HCP 7T retinotopy 
