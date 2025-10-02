@@ -30,11 +30,10 @@ The "plots" folder contains plots generated from the plots scripts.
 The "results" folder contains results and metrics generated from 
 the analysis scripts.
 
-The "tsv" folder contains individual tsv files for each HCP 
-retinotopy subject, one set (indiv_dist_tsv) for the distance-based 
-CM method and the other set (indiv_area_tsv) for the area-based CM 
-method. The group_tsv folder contains the filtered and concatenated 
-tsvs from those two sets.
+To generate the individual tsv files, you will have to download 
+or access the HCP 7T retinotopy dataset yourself, which requires 
+registration. Details on how to do so via neuropythy can be found
+here: https://github.com/noahbenson/neuropythy
 
 Adrian Wong,
 UMN, Oct 2025
