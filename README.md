@@ -10,3 +10,6 @@ containing vertex-wise information like prf eccentricity, r2, and cortical
 magnification. The group script concatenates those tsv files into one 
 dataframe. The analysis script analyzes and plots the data, and the comparison
 script compares the results of the two methods. 
+
+Authors: Adrian Wong, Uriel Lascombes
+Oct 2025
