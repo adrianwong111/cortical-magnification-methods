@@ -38,5 +38,5 @@ CM method and the other set (indiv_area_tsv) for the area-based CM
 method. The group_tsv folder contains the filtered and concatenated 
 tsvs from those two sets.
 
-Adrian Wong
+Adrian Wong,
 UMN, Oct 2025
